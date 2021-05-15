@@ -1,0 +1,41 @@
+.parallax {
+  /* The image used */
+
+background-image: url("images/contactus-cover.jpg");
+  /* Set a specific height */
+  min-height: 580px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.8;
+  position: relative;
+  text-align: center;
+}
+.centered-packages {
+  width: 45%;
+  position: absolute;
+  color: black;
+  /* font-size: 1.5em; */
+  /* top: 80%; */
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#contact{
+  margin: 4% 5%;
+  align-items: center;
+}
+
+.contact-info{
+  padding: 2% 6%;
+  align-items: center;
+
+
+}
+
+.time{
+margin:0 20%;
+}

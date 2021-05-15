@@ -1,0 +1,65 @@
+
+.parallax {
+  /* The image used */
+
+background-image: url("images/aboutus-cover.jpg");
+  /* Set a specific height */
+  min-height: 580px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.centered-packages {
+  width: 45%;
+  position: absolute;
+  /* font-size: 1.5em; */
+  /* top: 80%; */
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#story{
+  margin: 4% 5%;
+}
+/* .story-container{
+  width:35rem;
+
+
+} */
+.story-image{
+  width:25rem;
+
+}
+
+#mission{
+    margin: 4% 6%;
+}
+#staff{
+    margin: 4% 6%;
+    text-align: center;
+}
+
+.staff-image{
+  width:12rem;
+  border-radius: 50%;
+}
+.logo{
+  align-items: center;
+}
+.logo-img{
+  margin:1%;
+  border-radius: 50%;
+}
+
+
+.book{
+  padding: 4% 35%;
+  align-items: center;
+  justify-content: center;
+
+}
